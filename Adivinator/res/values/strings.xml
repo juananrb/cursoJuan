@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Adivinator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="am_indicar_numero">Indica un nº:</string>
+    <string name="am_numero_mayor">El nº es mayor</string>
+    <string name="am_numero_menor">El nº es menor</string>
+    <string name="am_numero_igual">El nº es igual</string>
+    <string name="am_valid_value">Introduzca un nº valido</string>
+    <string name="am_numero_intentos">Llevas %d intentos</string>
+    <string name="am_prueba">Prueba</string>
+    <string name="ae_adivinator">adivinator</string>
+    <string name="me_editar">Editar</string>
+    <string name="me_reset">Reset</string>
+    
+    <string name="di_txtRango">Introduce el rango</string>
+    <string name="di_txtReiniciar">¿Está seguro que desea reiniciar el juego?</string>
+    <string name="di_txtReset">Reiniciar</string>
+    <string name="di_txtEditar">Edita el texto</string>
+    <string name="di_ok">OK</string>
+    <string name="di_cancel">Cancelar</string>
+    <string name="am_category">Categoria 1</string>
+    <string name="pref_valor_maximo">key_max</string>
+    
+
+</resources>

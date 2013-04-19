@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AIIntents" >
+
+    <Button
+        android:id="@+id/ai_btn_navegar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="46dp"
+        android:text="Navegar" />
+
+    <Button
+        android:id="@+id/ai_btn_abrirseguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ai_btn_navegar"
+        android:layout_below="@+id/ai_btn_navegar"
+        android:layout_marginTop="21dp"
+        android:text="segunda" />
+
+    <Button
+        android:id="@+id/ai_btn_lllamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ai_btn_abrirseguna"
+        android:layout_below="@+id/ai_btn_abrirseguna"
+        android:layout_marginTop="27dp"
+        android:text="Llamar" />
+
+    <Button
+        android:id="@+id/ai_btn_contactos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ai_btn_lllamar"
+        android:layout_below="@+id/ai_btn_lllamar"
+        android:layout_marginTop="26dp"
+        android:text="contactos" />
+
+</RelativeLayout>

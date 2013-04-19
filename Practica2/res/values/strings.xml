@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practica2</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="am_txtimporte">Introduce un importe</string>
+    <string name="am_txtporcentajes">Porcentajes</string>
+    <string name="am_cincoporc">5 %</string>
+    <string name="am_diezporc">10%</string>
+    <string name="am_quinceporc">15%</string>
+    <string name="am_veinte_porc">20%</string>
+    <string name="am_veinticincoporc">25%</string>
+    <string name="am_propina">La propina es %d</string>
+    <string name="am_total">El total es %d</string>
+
+</resources>

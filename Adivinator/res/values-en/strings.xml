@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Adivinator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="am_indicar_numero">Intro number</string>
+    <string name="am_numero_mayor">El nº es mayor</string>
+    <string name="am_numero_menor">El nº es menor</string>
+    <string name="am_numero_igual">El nº es igual</string>
+    <string name="am_valid_value">Introduzca un nº valido</string>
+    <string name="am_numero_intentos">Llevas %d intentos</string>
+    <string name="am_prueba">Prueba</string>
+    <string name="ae_adivinator">adivinator</string>
+
+</resources>

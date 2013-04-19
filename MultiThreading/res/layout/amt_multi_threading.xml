@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/amt_tv_msg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="msg1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/amt_tv_msg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="msg2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/amt_button_lento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lento" />
+
+        <Button
+            android:id="@+id/amt_btn_rapido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rapido" />
+
+        <Button
+            android:id="@+id/amt_button_lentoAsync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lento Async" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4.87"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/amt_button_stopSR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parar Servicio registro" />
+
+        <Button
+            android:id="@+id/amt_button_initSR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Servicio registro" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/amt_btn_conecta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conecta" />
+
+        <Button
+            android:id="@+id/amt_btn_desconecta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="desconecta" />
+
+        <Button
+            android:id="@+id/amt_btn_refresca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresca" />
+
+    </LinearLayout>
+
+</LinearLayout>

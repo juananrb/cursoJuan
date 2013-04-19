@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AUL_UserList" >
+
+    <Button
+        android:id="@+id/aul_button_accion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:onClick="hazAccion"
+        android:text="Accion" />
+
+    <Button
+        android:id="@+id/aul_button_queryall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="hazQuery"
+        android:text="QueryAll" />
+
+    <Button
+        android:id="@+id/aul_button_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/aul_button_accion"
+        android:layout_below="@+id/aul_button_accion"
+        android:layout_marginTop="26dp"
+        android:text="Update" 
+        android:onClick="hazUpdate"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/am_category">
+        <EditTextPreference android:dialogTitle="Máximo" android:positiveButtonText="Guardar"
+             android:negativeButtonText="Cancelar" 
+             android:dialogMessage="Introduzca el valor máximo de la incógnita por defecto" 
+             android:key="@string/pref_valor_maximo"
+             android:inputType="number" 
+             android:title="Introduce el rango"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

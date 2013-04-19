@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practica1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	<string name="am_texto1">Texto 1</string>
+    <string name="am_texto2">Texto 2</string>
+    <string name="am_cambiaTexto">Cambia Texto</string>
+    
+</resources>
